@@ -7,11 +7,9 @@ from datetime import datetime
 import argparse as arg
 
 import numpy as np
-import matplotlib
 import matplotlib.pyplot as plt
 import os, shutil
 
-#from models.audio_net import AudioNet
 from modelA import AudioNet
 
 from data.GRID_dataset import GRIDMain
